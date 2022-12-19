@@ -15,16 +15,16 @@ int main()
     if (isFromInchToCm == 1)
     {
         result = inchesToCm(number);
-        printf("%.2lf inches is %.2lf cm.", number, result);
+        printf("%.2lf inches is %.2lf cm.\n", number, result);
     }
     else if (isFromInchToCm == 2)
     {
         result = cmToInches(number);
-        printf("%.2lf cm is %.2lf inches.", number, result);
+        printf("%.2lf cm is %.2lf inches.\n", number, result);
     }
     else
     {
-        printf("invalid input, please press either \"1\" or \"2\". ");
+        printf("invalid input, please press either \"1\" or \"2\".\n ");
     }
 
     return 0;
