@@ -17,10 +17,14 @@ int main()
         result = inchesToCm(number);
         printf("%.2lf inches is %.2lf cm.", number, result);
     }
-    else
+    else if (isFromInchToCm == 2)
     {
         result = cmToInches(number);
         printf("%.2lf cm is %.2lf inches.", number, result);
+    }
+    else
+    {
+        printf("invalid input, please press either \"1\" or \"2\". ");
     }
 
     return 0;
